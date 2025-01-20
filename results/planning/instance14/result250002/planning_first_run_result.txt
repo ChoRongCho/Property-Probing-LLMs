@@ -1,0 +1,7 @@
+
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance14/result250002/planning.py", line 54
+    if hasattr(obj, 'object_type') and obj.object_type == 'plastic':
+    ^
+IndentationError: expected an indented block after function definition on line 52
+
+

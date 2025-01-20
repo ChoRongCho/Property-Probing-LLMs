@@ -1,0 +1,38 @@
+{
+    "0": {
+        "name": "yellow_3D_cuboid",
+        "shape": "3D_cuboid",
+        "color": "yellow",
+        "predicates": [
+            "is_compressible"
+        ],
+        "init_pose": "out_box"
+    },
+    "1": {
+        "name": "blue_3D_cylinder",
+        "shape": "3D_cylinder",
+        "color": "blue",
+        "predicates": [
+            "is_rigid"
+        ],
+        "init_pose": "out_box"
+    },
+    "2": {
+        "name": "black_1D_line",
+        "shape": "1D_line",
+        "color": "black",
+        "predicates": [
+            "is_bendable"
+        ],
+        "init_pose": "out_box"
+    },
+    "3": {
+        "name": "green_3D_cylinder",
+        "shape": "3D_cylinder",
+        "color": "green",
+        "predicates": [
+            "is_rigid"
+        ],
+        "init_pose": "out_box"
+    }
+}

@@ -1,0 +1,11 @@
+Cannot fold
+pick transparent_2D_circle
+
+Traceback (most recent call last):
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance37/result250004/planning.py", line 121, in <module>
+    action.pick(object0, box)
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance37/result250004/planning.py", line 49, in pick
+    box.in_bin_objects.remove(obj)
+ValueError: list.remove(x): x not in list
+
+

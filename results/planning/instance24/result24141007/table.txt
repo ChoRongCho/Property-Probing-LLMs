@@ -1,0 +1,20 @@
+The Init State
+| Index | Name                  | Color       | Shape         | Object Type | In Bin | Is Compressible | Is Rigid | Is Plastic | Is Foldable | Is 3D |
+|-------|-----------------------|-------------|---------------|-------------|--------|-----------------|----------|------------|-------------|-------|
+| 0     | yellow_3D_cuboid      | yellow      | 3D_cuboid     | obj         | False  | True            | False    | False      | False       | True  |
+| 1     | blue_3D_cylinder      | blue        | 3D_cylinder   | obj         | False  | False           | True     | False      | False       | True  |
+| 2     | blue_2D_rectangle     | blue        | 2D_rectangle  | obj         | False  | False           | False    | True       | False       | False |
+| 3     | transparent_2D_circle | transparent | 2D_circle     | obj         | False  | False           | False    | False      | True        | False |
+| 4     | red_3D_polyhedron     | red         | 3D_polyhedron | obj         | False  | True            | False    | False      | False       | True  |
+| 5     | green_3D_cylinder     | green       | 3D_cylinder   | obj         | False  | False           | True     | False      | False       | True  |
+
+
+The Goal State
+| Index | Name                  | Packed |
+|-------|-----------------------|--------|
+|   0   | yellow_3D_cuboid      |  True  |
+|   1   | blue_3D_cylinder      |  True  |
+|   2   | blue_2D_rectangle     |  True  |
+|   3   | transparent_2D_circle |  True  |
+|   4   | red_3D_polyhedron     |  True  |
+|   5   | green_3D_cylinder     |  True  |

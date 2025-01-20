@@ -1,0 +1,96 @@
+\begin{table*}[h!]
+\setlength\tabcolsep{4pt} % default value: 6pt
+%\centering
+\caption{Table}
+  \begin{subtable}[t]{0.485\linewidth}
+    %\centering
+    \caption{Success rate of object detection in an instance}
+    \resizebox{\linewidth}{!}{%
+      \begin{tabular}{|c|c|c|c|}
+    \hline
+      & Success Rate (\%) & Missing objects (\%) & Hallucinations (\%) \\
+    \hline
+    \textsf{None} & 97.63 & 1.84 & 0.53 \\
+    \hline
+    \textsf{BB} & 99.37 & 0.00 & 0.53\\
+    \hline
+    \textsf{Graph} & 100.00 & 0.00 & 0.00 \\
+    \hline
+    \textsf{BB+Graph} & 100.00 & 0.00 & 0.00 \\
+    \hline
+    \end{tabular}
+    \label{tab:sr_result2}%
+   }%
+  \end{subtable}%
+  \hfill % maximize the horizontal separation
+  \begin{subtable}[t]{0.485\linewidth}
+    %\centering
+    \caption{Success rate of object naming in all objects}
+  \resizebox{\linewidth}{!}{%
+      \begin{tabular}{|c|c|c|c||c|c|c|c|}
+    \hline
+    Object & Dim & Shape & Total & Object & Dim & Shape & Total\\
+    \hline
+    obj1 & 100.00 & 100.00 & 100.00 & obj8 & 100.00 & 100.00 & 100.00\\
+    \hline
+    obj2 & 100.00 & 100.00 & 100.00 & obj9 & 96.36 & 100.00 & 96.36\\
+    \hline
+    obj3 & 100.00 & 100.00 & 100.00 & obj10 & 100.00 & 100.00 & 100.00\\
+    \hline
+    obj4 & 100.00 & 100.00 & 100.00 & obj11 & 100.00 & 100.00 & 100.00\\
+    \hline
+    obj5 & 100.00 & 71.88 & 71.88 & obj12 & 100.00 & 100.00 & 100.00\\
+    \hline
+    obj6 & 95.38 & 100.00 & 95.38 & obj13 & 100.00 & 97.06 & 97.06\\
+    \hline
+    obj7 & 100.00 & 100.00 & 100.00 & obj14 & 100.00 & 100.00 & 100.00 \\
+    \hline
+    \end{tabular}%
+    }%
+  \end{subtable}
+  \hfill % maximize the horizontal separation
+  \begin{subtable}[t]{0.485\linewidth}
+    %\centering
+    \caption{The accuracy rate of property probing}
+  \resizebox{\linewidth}{!}{%
+      \begin{tabular}{|c|c|c||c|c||c|c|}
+    \noalign{\smallskip}
+    \hline
+    \multicolumn{3}{|c||}{} & \multicolumn{2}{c||}{No interaction} & \multicolumn{2}{c|}{Interaction} \\
+    \hline
+    Object & Dim & Properties & \textsf{Image} & \textsf{Image+Name} & \textsf{Robot} & \textsf{Robot+Tree}\\
+    \hline
+    1 & 3 & plastic & 0.00 & 0.00 & 100.00 & 100.00 \\
+    \hline
+    2 & 3 & rigid & 0.00 & 0.00 & 0.00 & 0.00 \\
+    \hline
+    3 & 3 & compre & 80.00 & 20.0 & 100.00 & 100.00 \\
+    \hline
+    4 & 3 & rigid & 100.00 & 100.00 & 100.00 & 100.00 \\
+    \hline
+    5 & 3 & compre & 100.00 & 0.00 & 100.00 & 100.00 \\
+    \hline
+    6 & 2 & plastic & 00.00 & 0.00 & 0.00 & 40.00 \\
+    \hline
+    7 & 2 & foldable & 90.00 & 0.00 & 100.00 & 100.00 \\
+    \hline
+    8 & 2 & foldable & 0.00 & 0.00 & 100.00 & 100.00 \\
+    \hline
+    9 & 1 & rigid & 60.00 & 100.00 & 0.00 & 0.00 \\
+    \hline
+    10 & 1 &  bendable & 0.00 & 0.00 & 100.00 & 100.00 \\
+    \hline
+    11 & 1 &  plastic & 0.00 & 0.00 & 100.00 & 40.00 \\
+    \hline
+    12 & 3 &  compre & 30.00 & 0.00 & 100.00 & 90.00 \\
+    \hline
+    13 & 3 &  compre & 0.00 & 0.00 & 100.00 & 60.00 \\
+    \hline
+    14 & 3 &  rigid & 20.00 & 100.00 & 100.00 & 100.00 \\
+    \hline
+    \multicolumn{3}{|c||}{Average} &  34.29 & 22.86 & 78.57 & 73.57 \\
+    \hline
+    \end{tabular}%
+    }%
+  \end{subtable}
+\end{table*}

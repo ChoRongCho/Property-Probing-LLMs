@@ -1,0 +1,19 @@
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+
+
+

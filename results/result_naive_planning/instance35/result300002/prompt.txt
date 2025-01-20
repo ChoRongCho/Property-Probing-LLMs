@@ -1,0 +1,77 @@
+--------------  --------------------------
+Project Time    2024-12-31 00:44:36.455525
+Task            bin_packing
+Exp_Name        instance35
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description
+   - The scene contains six objects: a black pipe cleaner, a wooden stick, a green cylindrical object, a brown cup, a transparent lid, and a blue rectangular sheet.
+   - Identify the physical property of each object.
+     1. Black pipe cleaner: bendable
+     2. Wooden stick: rigid
+     3. Green cylindrical object: plastic (irreversibly deformable)
+     4. Brown cup: compressible
+     5. Transparent lid: plastic (irreversibly deformable)
+     6. Blue rectangular sheet: foldable
+
+2. Grounded Plan
+   1. Pick the brown cup.
+   2. Place the brown cup in the box.
+   3. Push the brown cup.
+   4. Pick the black pipe cleaner.
+   5. Bend the black pipe cleaner.
+   6. Place the black pipe cleaner in the box.
+   7. Pick the blue rectangular sheet.
+   8. Fold the blue rectangular sheet.
+   9. Place the blue rectangular sheet in the box.
+   10. Pick the wooden stick.
+   11. Place the wooden stick in the box.
+   12. Pick the green cylindrical object.
+   13. Place the green cylindrical object in the box.
+   14. Pick the transparent lid.
+   15. Place the transparent lid in the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

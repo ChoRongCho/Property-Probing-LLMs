@@ -1,0 +1,16 @@
+bend black_1D_line
+fold transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+
+
+

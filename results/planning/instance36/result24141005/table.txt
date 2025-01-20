@@ -1,0 +1,16 @@
+The Init State
+| Index | Name              | Color  | Shape       | Object Type | In Bin | Is Foldable | Is Rigid | Is Bendable | Is Plastic | Is Heavy |
+|-------|-------------------|--------|-------------|-------------|--------|-------------|----------|-------------|------------|----------|
+| 0     | yellow_2D_rectangle | yellow | 2D_rectangle | obj         | False  | True        | False    | False       | False      | False    |
+| 1     | beige_1D_line     | beige  | 1D_line     | obj         | False  | False       | True     | False       | False      | False    |
+| 2     | black_1D_line     | black  | 1D_line     | obj         | False  | False       | False    | True        | False      | False    |
+| 3     | gray_1D_line      | gray   | 1D_line     | obj         | False  | False       | False    | False       | True       | False    |
+
+
+The Goal State
+| Index | Name               | Packed |
+|-------|--------------------|--------|
+|   0   | yellow_2D_rectangle|  True  |
+|   1   | beige_1D_line      |  True  |
+|   2   | black_1D_line      |  True  |
+|   3   | gray_1D_line       |  True  |

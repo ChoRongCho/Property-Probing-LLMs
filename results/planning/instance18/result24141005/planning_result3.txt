@@ -1,0 +1,11 @@
+pick white_3D_cuboid
+place white_3D_cuboid
+Cannot push
+pick blue_3D_cylinder
+place blue_3D_cylinder
+Cannot push
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done

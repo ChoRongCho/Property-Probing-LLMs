@@ -1,0 +1,17 @@
+pick brown_3D_cylinder
+Cannot place brown_3D_cylinder - not holding the object or already in a bin
+Cannot push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+Cannot place yellow_2D_rectangle - not holding the object or already in a bin
+fold transparent_2D_circle
+pick transparent_2D_circle
+Cannot place transparent_2D_circle - not holding the object or already in a bin
+Cannot pick white_3D_cuboid
+Cannot place white_3D_cuboid - not holding the object or already in a bin
+Cannot pick blue_2D_rectangle
+Cannot place blue_2D_rectangle - not holding the object or already in a bin
+All task planning is done
+
+
+

@@ -1,0 +1,16 @@
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+Cannot place yellow_2D_rectangle, already in bin.
+fold transparent_2D_circle
+pick transparent_2D_circle
+Cannot place transparent_2D_circle, already in bin.
+Cannot pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+Cannot place red_3D_polyhedron, already in bin.
+push red_3D_polyhedron
+pick brown_3D_cylinder
+Cannot place brown_3D_cylinder, already in bin.
+push brown_3D_cylinder
+All task planning is done

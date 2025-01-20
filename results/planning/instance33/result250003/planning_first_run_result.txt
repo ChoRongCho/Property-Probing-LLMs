@@ -1,0 +1,13 @@
+Cannot bend
+pick beige_1D_line
+place beige_1D_line
+Cannot fold
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+Cannot push
+All task planning is done
+
+
+

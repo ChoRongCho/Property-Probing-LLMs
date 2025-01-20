@@ -1,0 +1,39 @@
+{
+  "bin_packing": {
+    "name": "UR5",
+    "goal": "packing all object in the bin",
+    "actions": {
+      "pick": "Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. ",
+      "place": "Place an object into the box. This action can be applied to any type of object. ",
+      "bend": "Bend a 1D bendable object. Hand must remain empty before and after the bending action. ",
+      "push": "Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. ",
+      "fold": "Fold a 2D foldable object. Hand must remain empty before and after the folding. "
+    }
+  },
+  "blocksworld": {
+    "name": "UR5",
+    "goal": "stacking blocks to be a target image",
+    "actions": {
+      "pick-up": "pick a {block} which is on the {table}",
+      "put-down": "put a {block} on the {table}",
+      "stack": "put a {block} on the {block}",
+      "unstack": "pick a {block} which is on the {block}"
+    }
+  },
+  "hanoi": {
+    "name": "UR5",
+    "goal": "moving all disks of a source peg(left) to the target peg(right)",
+    "actions": {
+      "move": "move a {disk} to another {peg}"
+    }
+  },
+  "cooking": {
+    "name": "a two arm manipulator",
+    "goal": "cooking a vegetables",
+    "actions": {
+      "place": "place an {object} on the {any where}",
+      "pick": "pick an {object}",
+      "slice": "slice an {object} which is on the {any where}"
+    }
+  }
+}

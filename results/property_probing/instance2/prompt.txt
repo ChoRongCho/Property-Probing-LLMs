@@ -1,0 +1,150 @@
+--------------  --------------------------
+Project Time    2024-11-21 16:26:05.744219
+Task            bin_packing
+Exp_Name        instance2
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q:  
+The first image shows a top view of an object (the one which is the closest to the center of the image) while the second image shows a side view of them.
+Each view captures the same scene, with the objects in the images corresponding one-to-one between the two views.
+I will provide you with images that have bounding boxes drawn around the objects and its logits. 
+However, unfortunately, these images can occasionally contain errors. 
+Therefore, you need to make accurate judgments about the objects' positions and relationships. 
+Additionally, the white lines represent the relationships between the bounding boxes, so think of this as a graph.
+
+Based on the spatial information from this graph, you should be able to recognize the same objects. 
+Please describe the given environment based on these images.      
+
+Your answer must use the template below:
+
+Please answer with the template below:
+---template start---
+### Objects and Their Descriptions:
+# top view
+|  top index  | descriptions  
+|      1      |  
+|      2      |
+
+# side view
+|  side index  | descriptions
+|       1      |  
+|       2      |
+
+# Find same objects in both views 
+
+
+### Spatial Relationships:
+
+### Critical bounding box errors Description:
+# if there is any critical error such as wrong bonding box and additional bounding box, describe here 
+
+---template end---
+
+
+
+
+A: 
+---template start---
+
+### Objects and Their Descriptions:
+
+# top view
+|  top index  | descriptions  
+|      1      | Red cube on the left
+|      2      | Red dragon toy in the center
+|      3      | White rectangular sponge on the right
+|      4      | Brown circular cup at the bottom
+|      5      | Black stick-like object at the bottom right
+
+# side view
+|  side index  | descriptions
+|       1      | Red cube on the left
+|       2      | Red dragon toy in the center
+|       3      | White rectangular sponge on the right
+|       4      | Brown circular cup at the front
+|       5      | Black stick-like object at the front right
+
+# Find same objects in both views 
+- Red cube: top index 1, side index 1
+- Red dragon toy: top index 2, side index 2
+- White rectangular sponge: top index 3, side index 3
+- Brown circular cup: top index 4, side index 4
+- Black stick-like object: top index 5, side index 5
+
+### Spatial Relationships:
+- The red dragon toy is centrally located and connected to all other objects.
+- The red cube is to the left of the dragon toy.
+- The white rectangular sponge is to the right of the dragon toy.
+- The brown circular cup is below the dragon toy.
+- The black stick-like object is below and slightly to the right of the dragon toy.
+
+### Critical bounding box errors Description:
+- No critical bounding box errors detected.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+
+Q: 
+Now that you've obtained the spatial information of the objects, you need to describe shape, color, and dimension of each object.
+And for clarity, I will provide the original images. Please identify the shape, dimension, and color of each object based on these images according to the definitions in "[Definitions of dimensions and shapes]" below.
+Your answer must follow the naming convention which is "color_dimension_shape" (e.g., red_3D_cuboid or black_2D_ring).
+Ensure that there is no contradiction between the shape and dimension. For example, "1D" and "loop" or "3D" and "circle" are not compatible according to their definitions in "[Definitions of dimensions and shapes]".
+
+[Definitions of dimensions and shapes]
+Dimension
+1D: One-dimensional object, such as thin and sharp thing
+2D: Two-dimensional object, without height
+3D: Three-dimensional object
+
+
+Shape
+1D
+Line: A one-dimensional object characterized by a straight path connecting two endpoints, having a definite length but no width. If an object is with an empty center, it should not be a line.
+
+2D
+Circle: A two-dimensional round object with every point on its edge equidistant from its center
+Rectangle: A two-dimensional polygonal object with opposite sides equal and four right angles
+Triangle: A two-dimensional polygonal object with three sides and three angles
+Polygon: A two-dimensional object with multiple straight sides (e.g., a pentagon is with 5 sides, a hexagon is with 6 sides)
+Loop: A two-dimensional object with a closed curve characterized by an empty center, forming a continuous loop
+
+3D
+Sphere: A round three-dimensional object where every point on its surface is equidistant from its center
+Cube: A three-dimensional object with six equal square faces
+Cuboid: A three-dimensional object with six rectangular faces
+Pyramid: A three-dimensional object with a polygonal base and triangular faces that converge to a single point
+Cylinder: A three-dimensional object with two parallel circular bases connected by a curved surface
+Cone: A three-dimensional object with a circular base that tapers to a single point
+Polyhedron: A three-dimensional object with flat polygonal faces, straight edges, and vertices,
+
+
+Your answer must use the template below:
+
+Please answer with the template below:
+---template start---
+Answer
+---
+object: red_3D_polyhedron, yellow_3D_cuboid, ... # if there are duplicate objects, add '_N' at the end, e.g., red_3D_cuboid_2.
+---
+
+Descriptions about objects in the scene
+*your descriptions in 200 words
+---template end---
+
+
+A: 
+---template start---
+
+Answer
+---
+object: red_3D_cube, red_3D_polyhedron, white_3D_cuboid, brown_3D_cylinder, black_1D_line
+---
+
+Descriptions about objects in the scene:
+The scene contains five distinct objects. The red cube is a three-dimensional object with six equal square faces, located on the left side. The red polyhedron, resembling a dragon toy, is centrally positioned and has a complex shape with multiple polygonal faces. The white cuboid is a three-dimensional object with rectangular faces, situated on the right side. The brown cylinder, resembling a cup, is a three-dimensional object with a circular base and curved surface, located at the bottom. Lastly, the black line is a one-dimensional object, thin and elongated, positioned at the bottom right. Each object is distinct in shape and color, contributing to a diverse arrangement in the scene.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

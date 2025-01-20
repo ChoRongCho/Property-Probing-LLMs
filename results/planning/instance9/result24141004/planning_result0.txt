@@ -1,0 +1,5 @@
+
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance9/result24141004/planning.py", line 64
+    if obj.is_plastic and any(o.is_foldable or o.is_bendable for o in box.in_bin_objects):
+    ^
+IndentationError: expected an indented block after function definition on line 62

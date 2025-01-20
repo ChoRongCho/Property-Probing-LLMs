@@ -1,0 +1,17 @@
+pick yellow_3D_cuboid
+Cannot place yellow_3D_cuboid - not holding the object or already in a bin
+Cannot push yellow_3D_cuboid
+Cannot pick white_3D_cylinder
+Cannot place white_3D_cylinder - not holding the object or already in a bin
+Cannot push white_3D_cylinder
+Cannot pick brown_3D_cylinder
+Cannot place brown_3D_cylinder - not holding the object or already in a bin
+Cannot push brown_3D_cylinder
+Cannot pick beige_1D_line
+Cannot place beige_1D_line - not holding the object or already in a bin
+Cannot pick green_3D_cylinder
+Cannot place green_3D_cylinder - not holding the object or already in a bin
+All task planning is done
+
+
+

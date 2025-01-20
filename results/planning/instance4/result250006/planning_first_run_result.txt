@@ -1,0 +1,7 @@
+
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance4/result250006/planning.py", line 58
+    if obj.object_type == "plastic":
+    ^
+IndentationError: expected an indented block after function definition on line 53
+
+

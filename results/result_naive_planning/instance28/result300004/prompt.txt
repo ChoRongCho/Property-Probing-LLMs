@@ -1,0 +1,76 @@
+--------------  --------------------------
+Project Time    2024-12-30 22:36:56.859327
+Task            bin_packing
+Exp_Name        instance28
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description 
+   - The scene contains a sponge, a green cylindrical object, a red plush toy, a blue sheet, and a black bendable object.
+   - Identify the physical property of each object.
+     1. Sponge: compressible
+     2. Green cylindrical object: plastic (irreversibly deformable)
+     3. Red plush toy: compressible
+     4. Blue sheet: foldable
+     5. Black object: bendable
+
+2. Grounded Plan
+
+   - Pick the sponge.
+   - Place the sponge into the box.
+   - Push the sponge.
+   - Pick the red plush toy.
+   - Place the red plush toy into the box.
+   - Push the red plush toy.
+   - Pick the black bendable object.
+   - Bend the black object.
+   - Place the black object into the box.
+   - Pick the blue sheet.
+   - Fold the blue sheet.
+   - Place the blue sheet into the box.
+   - Pick the green cylindrical object.
+   - Place the green cylindrical object into the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

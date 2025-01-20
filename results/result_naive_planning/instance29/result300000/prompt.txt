@@ -1,0 +1,75 @@
+--------------  --------------------------
+Project Time    2024-12-30 22:45:36.048700
+Task            bin_packing
+Exp_Name        instance29
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description
+   - Describe the objects in the scene.
+     - A red plush dragon, a yellow sponge, a brown silicone cup, a clear plastic lid, and a yellow cloth.
+   - Identify the physical property of each object.
+     1. Red plush dragon: compressible
+     2. Yellow sponge: compressible
+     3. Brown silicone cup: rigid
+     4. Clear plastic lid: plastic (irreversibly deformable)
+     5. Yellow cloth: foldable
+
+2. Grounded Plan
+   1. Pick the yellow sponge.
+   2. Place the yellow sponge into the box.
+   3. Push the yellow sponge.
+   4. Pick the red plush dragon.
+   5. Place the red plush dragon into the box.
+   6. Push the red plush dragon.
+   7. Pick the yellow cloth.
+   8. Fold the yellow cloth.
+   9. Place the yellow cloth into the box.
+   10. Pick the brown silicone cup.
+   11. Place the brown silicone cup into the box.
+   12. Pick the clear plastic lid.
+   13. Place the clear plastic lid into the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

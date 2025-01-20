@@ -1,0 +1,14 @@
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick black_1D_line
+place black_1D_line
+pick gray_1D_line
+place gray_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+
+
+

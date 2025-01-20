@@ -1,0 +1,11 @@
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+
+Traceback (most recent call last):
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance36/result24141006/planning_feed1.py", line 131, in <module>
+    action.bend(object2, box)
+    ^^^^^^^^^^^
+AttributeError: 'Action' object has no attribute 'bend'

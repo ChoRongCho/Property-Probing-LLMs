@@ -1,0 +1,9 @@
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+
+Traceback (most recent call last):
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance34/result24141006/planning_feed1.py", line 117, in <module>
+    action.bend(object1, box)
+    ^^^^^^^^^^^
+AttributeError: 'Action' object has no attribute 'bend'

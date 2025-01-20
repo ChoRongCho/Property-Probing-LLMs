@@ -1,0 +1,14 @@
+The Init State
+| Index | Name             | Shape       | Color | Predicates        | Init Pose |
+|-------|------------------|-------------|-------|-------------------|-----------|
+| 0     | white_3D_cylinder| 3D_cylinder | white | is_compressible   | out_box   |
+| 1     | beige_1D_line    | 1D_line     | beige | is_rigid          | out_box   |
+| 2     | gray_1D_line     | 1D_line     | gray  | is_plastic        | out_box   |
+
+
+The Goal State
+| Index | Name             | Packed |
+|-------|------------------|--------|
+|   0   | white_3D_cylinder|  True  |
+|   1   | beige_1D_line    |  True  |
+|   2   | gray_1D_line     |  True  |

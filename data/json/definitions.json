@@ -1,0 +1,35 @@
+{"bin_packing":{
+    "shape": [
+"1D\n",
+"Line: A one-dimensional object characterized by a straight path connecting two endpoints, having a definite length but no width. If an object is with an empty center, it should not be a line.\n",
+"\n",
+"2D\n",
+"Circle: A two-dimensional round object with every point on its edge equidistant from its center\n",
+"Rectangle: A two-dimensional polygonal object with opposite sides equal and four right angles\n",
+"Triangle: A two-dimensional polygonal object with three sides and three angles\n",
+"Polygon: A two-dimensional object with multiple straight sides (e.g., a pentagon is with 5 sides, a hexagon is with 6 sides)\n",
+"Loop: A two-dimensional object with a closed curve characterized by an empty center, forming a continuous loop\n",
+"\n",
+"3D\n",
+"Sphere: A round three-dimensional object where every point on its surface is equidistant from its center\n",
+"Cube: A three-dimensional object with six equal square faces\n",
+"Cuboid: A three-dimensional object with six rectangular faces\n",
+"Pyramid: A three-dimensional object with a polygonal base and triangular faces that converge to a single point\n",
+"Cylinder: A three-dimensional object with two parallel circular bases connected by a curved surface\n",
+"Cone: A three-dimensional object with a circular base that tapers to a single point\n",
+"Polyhedron: A three-dimensional object with flat polygonal faces, straight edges, and vertices,\n"],
+
+    "dimension":[
+    "1D: One-dimensional object, such as thin and sharp thing\n",
+    "2D: Two-dimensional object, without height\n",
+    "3D: Three-dimensional object\n"],
+
+    "properties": [
+    "is_rigid: the object is stiff and does not deform easily.\n",
+    "is_bendable: the 1D object can be flexed without breaking or cracking:. \n",
+    "is_foldable: the 2D object can be folded without being damaged.\n",
+    "is_compressible: the 3D object can pressed into a smaller space.\n",
+    "is_plastic: the object can be shaped and retains the new form.\n"
+    ]
+    }
+}

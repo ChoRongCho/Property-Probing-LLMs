@@ -1,0 +1,84 @@
+--------------  --------------------------
+Project Time    2024-12-31 01:17:27.055812
+Task            bin_packing
+Exp_Name        instance37
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description
+   - Describe the objects in the scene.
+     - A red dragon toy
+     - A brown cup
+     - A black bendable stick
+     - A silver bendable wire
+     - A wooden stick
+     - A round plastic lid
+
+   - Identify the physical property of each object.
+     1. Red dragon toy: compressible
+     2. Brown cup: rigid
+     3. Black bendable stick: bendable
+     4. Silver bendable wire: bendable
+     5. Wooden stick: rigid
+     6. Round plastic lid: plastic
+
+2. Grounded Plan
+   1. pick the red dragon toy
+   2. place the red dragon toy into the box
+   3. push the red dragon toy
+   4. pick the black bendable stick
+   5. bend the black bendable stick
+   6. place the black bendable stick into the box
+   7. pick the silver bendable wire
+   8. bend the silver bendable wire
+   9. place the silver bendable wire into the box
+   10. pick the brown cup
+   11. place the brown cup into the box
+   12. pick the wooden stick
+   13. place the wooden stick into the box
+   14. pick the round plastic lid
+   15. place the round plastic lid into the box
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

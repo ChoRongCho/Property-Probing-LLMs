@@ -1,0 +1,78 @@
+--------------  --------------------------
+Project Time    2024-12-31 01:01:35.995955
+Task            bin_packing
+Exp_Name        instance36
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description 
+   - The scene contains four objects: a yellow rectangular object, a wooden stick, a black bendable object, and a metallic bendable object.
+   - Identify the physical property of each object.
+     1. Yellow rectangular object: foldable
+     2. Wooden stick: rigid
+     3. Black object: bendable
+     4. Metallic object: bendable
+
+2. Grounded Plan
+
+   - **Pick** the black bendable object.
+   - **Bend** the black bendable object.
+   - **Pick** the black bendable object.
+   - **Place** the black bendable object into the box.
+   
+   - **Pick** the metallic bendable object.
+   - **Bend** the metallic bendable object.
+   - **Pick** the metallic bendable object.
+   - **Place** the metallic bendable object into the box.
+   
+   - **Pick** the yellow foldable object.
+   - **Fold** the yellow foldable object.
+   - **Pick** the yellow foldable object.
+   - **Place** the yellow foldable object into the box.
+   
+   - **Pick** the wooden stick.
+   - **Place** the wooden stick into the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

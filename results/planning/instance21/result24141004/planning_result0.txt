@@ -1,0 +1,14 @@
+fold yellow_2D_rectangle
+fold transparent_2D_circle
+pick brown_3D_cylinder
+Cannot place brown_3D_cylinder - preconditions not met
+Cannot push brown_3D_cylinder because the robot is holding something
+Cannot pick white_3D_cuboid
+Cannot place white_3D_cuboid - preconditions not met
+Cannot pick yellow_2D_rectangle
+Cannot place yellow_2D_rectangle - preconditions not met
+Cannot pick transparent_2D_circle
+Cannot place transparent_2D_circle - preconditions not met
+Cannot pick blue_2D_rectangle
+Cannot place blue_2D_rectangle - preconditions not met
+All task planning is done

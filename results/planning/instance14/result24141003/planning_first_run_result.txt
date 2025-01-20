@@ -1,0 +1,15 @@
+Cannot pick yellow_3D_cuboid
+Cannot place yellow_3D_cuboid - object is not packable
+push yellow_3D_cuboid
+Cannot pick white_3D_cuboid
+Cannot place white_3D_cuboid - object is not packable
+Cannot pick blue_3D_cylinder
+Cannot place blue_3D_cylinder - object is not packable
+Cannot pick beige_1D_line
+Cannot place beige_1D_line - object is not packable
+Cannot pick blue_2D_rectangle
+Cannot place blue_2D_rectangle - object is not packable
+All task planning is done
+
+
+

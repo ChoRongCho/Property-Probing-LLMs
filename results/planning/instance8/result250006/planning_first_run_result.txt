@@ -1,0 +1,23 @@
+Cannot bend
+pick gray_1D_line
+Cannot place gray_1D_line
+Cannot fold
+Cannot pick blue_2D_rectangle
+Cannot place blue_2D_rectangle
+Cannot fold
+Cannot pick yellow_2D_rectangle
+Cannot place yellow_2D_rectangle
+Cannot pick blue_3D_cylinder
+Cannot place blue_3D_cylinder
+Cannot push
+Cannot pick white_3D_cylinder
+Cannot place white_3D_cylinder
+Cannot push
+Cannot pick brown_3D_cylinder
+Cannot place brown_3D_cylinder
+Cannot pick red_3D_cuboid
+Cannot place red_3D_cuboid
+All task planning is done
+
+
+

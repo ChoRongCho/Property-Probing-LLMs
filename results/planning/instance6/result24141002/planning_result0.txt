@@ -1,0 +1,5 @@
+
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance6/result24141002/planning.py", line 63
+    if obj.is_plastic and obj.is_compressible:
+    ^
+IndentationError: expected an indented block after function definition on line 61

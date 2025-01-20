@@ -1,0 +1,18 @@
+The Init State
+| Index | Name              | Shape         | Color  | Predicates          | Init Pose |
+|-------|-------------------|---------------|--------|---------------------|-----------|
+| 0     | red_3D_cuboid     | 3D_cuboid     | red    | is_plastic          | out_box   |
+| 1     | yellow_3D_cuboid  | 3D_cuboid     | yellow | is_compressible     | out_box   |
+| 2     | blue_3D_cylinder  | 3D_cylinder   | blue   | is_rigid            | out_box   |
+| 3     | beige_1D_line     | 1D_line       | beige  | is_rigid            | out_box   |
+| 4     | red_3D_polyhedron | 3D_polyhedron | red    | is_compressible     | out_box   |
+
+
+The Goal State
+| Index | Name             | Packed |
+|-------|------------------|--------|
+|   0   | red_3D_cuboid    |  True  |
+|   1   | yellow_3D_cuboid |  True  |
+|   2   | blue_3D_cylinder |  True  |
+|   3   | beige_1D_line    |  True  |
+|   4   | red_3D_polyhedron|  True  |

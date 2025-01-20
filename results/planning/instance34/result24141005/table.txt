@@ -1,0 +1,14 @@
+The Init State
+| Index | Name              | Color | Shape         | Object Type | In Bin | Is Compressible | Is Bendable | Is Fragile |
+|-------|-------------------|-------|---------------|-------------|--------|-----------------|-------------|------------|
+| 0     | white_3D_cylinder | white | 3D_cylinder   | obj         | False  | True            | False       | False      |
+| 1     | black_1D_line     | black | 1D_line       | obj         | False  | False           | True        | False      |
+| 2     | red_3D_polyhedron | red   | 3D_polyhedron | obj         | False  | True            | False       | False      |
+
+
+The Goal State
+| Index | Name              | Packed |
+|-------|-------------------|--------|
+|   0   | white_3D_cylinder |  True  |
+|   1   | black_1D_line     |  True  |
+|   2   | red_3D_polyhedron |  True  |

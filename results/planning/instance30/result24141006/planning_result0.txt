@@ -1,0 +1,17 @@
+bend black_1D_line
+pick black_1D_line
+Cannot place black_1D_line because it is already in the bin.
+Cannot fold transparent_2D_circle
+Cannot pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+Cannot place white_3D_cylinder because it is already in the bin.
+Cannot push white_3D_cylinder
+Cannot pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+Cannot place blue_3D_cylinder because it is already in the bin.
+Cannot pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done

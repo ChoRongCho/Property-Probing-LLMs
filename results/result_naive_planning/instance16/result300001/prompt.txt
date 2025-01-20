@@ -1,0 +1,77 @@
+--------------  --------------------------
+Project Time    2024-12-30 19:29:46.327112
+Task            bin_packing
+Exp_Name        instance16
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description 
+   - Describe the objects in the scene.
+     - A sponge, a piece of foam, a silicone cup, a plastic bottle, and a piece of yellow fabric.
+   - Identify the physical property of each object.
+     1. Sponge: compressible
+     2. Foam: compressible
+     3. Silicone cup: bendable
+     4. Plastic bottle: plastic
+     5. Yellow fabric: foldable
+
+2. Grounded Plan
+
+   1. Pick the silicone cup.
+   2. Bend the silicone cup.
+   3. Place the silicone cup in the box.
+   4. Pick the sponge.
+   5. Place the sponge in the box.
+   6. Push the sponge.
+   7. Pick the foam.
+   8. Place the foam in the box.
+   9. Push the foam.
+   10. Pick the yellow fabric.
+   11. Fold the yellow fabric.
+   12. Place the yellow fabric in the box.
+   13. Pick the plastic bottle.
+   14. Place the plastic bottle in the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,227 @@
+/home/changmin/anaconda3/envs/pddlv2/bin/python /home/changmin/PycharmProjects/OPTPlan/main.py --task_name bin_packing --exp_name 9 --exp_number 24072315 --is_save 1 --api_json setting.json --example_prompt_json prompt_examples_python.json --robot_json robot.json
+/home/changmin/anaconda3/envs/pddlv2/lib/python3.11/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025845868/work/aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+final text_encoder_type: bert-base-uncased
+/home/changmin/anaconda3/envs/pddlv2/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Iter24110001: Positive:27, Negative: 11, Total: 38
+Iter24110002: Positive:44, Negative: 32, Total: 76
+Iter24110003: Positive:64, Negative: 50, Total: 114
+Iter24110004: Positive:84, Negative: 68, Total: 152
+Iter24110005: Positive:102, Negative: 88, Total: 190
+Iter24110006: Positive:122, Negative: 106, Total: 228
+Iter24110007: Positive:141, Negative: 125, Total: 266
+Iter24110008: Positive:161, Negative: 143, Total: 304
+Iter24110009: Positive:178, Negative: 164, Total: 342
+Iter24110010: Positive:197, Negative: 183, Total: 380
+
+
+
+
+Positive Rate: 51.8421
+exp24110001:, instance:2
+exp24110001:, instance:8
+exp24110001:, instance:9
+exp24110001:, instance:11
+exp24110001:, instance:12
+exp24110001:, instance:14
+exp24110001:, instance:20
+exp24110001:, instance:21
+exp24110001:, instance:24
+exp24110001:, instance:27
+exp24110001:, instance:34
+
+exp24110002:, instance:2
+exp24110002:, instance:3
+exp24110002:, instance:4
+exp24110002:, instance:6
+exp24110002:, instance:8
+exp24110002:, instance:10
+exp24110002:, instance:12
+exp24110002:, instance:13
+exp24110002:, instance:14
+exp24110002:, instance:15
+exp24110002:, instance:17
+exp24110002:, instance:20
+exp24110002:, instance:21
+exp24110002:, instance:24
+exp24110002:, instance:25
+exp24110002:, instance:26
+exp24110002:, instance:27
+exp24110002:, instance:30
+exp24110002:, instance:34
+exp24110002:, instance:35
+exp24110002:, instance:38
+
+exp24110003:, instance:2
+exp24110003:, instance:5
+exp24110003:, instance:6
+exp24110003:, instance:8
+exp24110003:, instance:9
+exp24110003:, instance:12
+exp24110003:, instance:14
+exp24110003:, instance:15
+exp24110003:, instance:19
+exp24110003:, instance:20
+exp24110003:, instance:21
+exp24110003:, instance:24
+exp24110003:, instance:25
+exp24110003:, instance:26
+exp24110003:, instance:27
+exp24110003:, instance:34
+exp24110003:, instance:37
+exp24110003:, instance:38
+
+exp24110004:, instance:3
+exp24110004:, instance:8
+exp24110004:, instance:9
+exp24110004:, instance:10
+exp24110004:, instance:11
+exp24110004:, instance:13
+exp24110004:, instance:14
+exp24110004:, instance:15
+exp24110004:, instance:18
+exp24110004:, instance:20
+exp24110004:, instance:21
+exp24110004:, instance:24
+exp24110004:, instance:25
+exp24110004:, instance:27
+exp24110004:, instance:30
+exp24110004:, instance:32
+exp24110004:, instance:33
+exp24110004:, instance:34
+
+exp24110005:, instance:2
+exp24110005:, instance:3
+exp24110005:, instance:5
+exp24110005:, instance:7
+exp24110005:, instance:8
+exp24110005:, instance:9
+exp24110005:, instance:10
+exp24110005:, instance:11
+exp24110005:, instance:14
+exp24110005:, instance:15
+exp24110005:, instance:17
+exp24110005:, instance:19
+exp24110005:, instance:20
+exp24110005:, instance:21
+exp24110005:, instance:25
+exp24110005:, instance:26
+exp24110005:, instance:27
+exp24110005:, instance:30
+exp24110005:, instance:32
+exp24110005:, instance:34
+
+
+exp24110006:, instance:4
+exp24110006:, instance:5
+exp24110006:, instance:6
+exp24110006:, instance:8
+exp24110006:, instance:10
+exp24110006:, instance:11
+exp24110006:, instance:12
+exp24110006:, instance:15
+exp24110006:, instance:17
+exp24110006:, instance:19
+exp24110006:, instance:20
+exp24110006:, instance:22
+exp24110006:, instance:25
+exp24110006:, instance:27
+exp24110006:, instance:32
+exp24110006:, instance:33
+exp24110006:, instance:34
+exp24110006:, instance:38
+
+
+exp24110007:, instance:4
+exp24110007:, instance:5
+exp24110007:, instance:6
+exp24110007:, instance:7
+exp24110007:, instance:11
+exp24110007:, instance:12
+exp24110007:, instance:13
+exp24110007:, instance:14
+exp24110007:, instance:20
+exp24110007:, instance:21
+exp24110007:, instance:22
+exp24110007:, instance:25
+exp24110007:, instance:26
+exp24110007:, instance:27
+exp24110007:, instance:33
+exp24110007:, instance:34
+exp24110007:, instance:35
+exp24110007:, instance:37
+exp24110007:, instance:38
+
+
+exp24110008:, instance:3
+exp24110008:, instance:4
+exp24110008:, instance:5
+exp24110008:, instance:7
+exp24110008:, instance:8
+exp24110008:, instance:9
+exp24110008:, instance:11
+exp24110008:, instance:15
+exp24110008:, instance:18
+exp24110008:, instance:19
+exp24110008:, instance:20
+exp24110008:, instance:21
+exp24110008:, instance:22
+exp24110008:, instance:25
+exp24110008:, instance:27
+exp24110008:, instance:32
+exp24110008:, instance:34
+exp24110008:, instance:37
+
+
+exp24110009:, instance:3
+exp24110009:, instance:5
+exp24110009:, instance:6
+exp24110009:, instance:8
+exp24110009:, instance:9
+exp24110009:, instance:10
+exp24110009:, instance:11
+exp24110009:, instance:12
+exp24110009:, instance:15
+exp24110009:, instance:18
+exp24110009:, instance:19
+exp24110009:, instance:20
+exp24110009:, instance:21
+exp24110009:, instance:22
+exp24110009:, instance:25
+exp24110009:, instance:27
+exp24110009:, instance:31
+exp24110009:, instance:32
+exp24110009:, instance:33
+exp24110009:, instance:34
+exp24110009:, instance:35
+
+
+
+exp24110010:, instance:5
+exp24110010:, instance:6
+exp24110010:, instance:9
+exp24110010:, instance:10
+exp24110010:, instance:11
+exp24110010:, instance:15
+exp24110010:, instance:20
+exp24110010:, instance:21
+exp24110010:, instance:22
+exp24110010:, instance:24
+exp24110010:, instance:25
+exp24110010:, instance:26
+exp24110010:, instance:27
+exp24110010:, instance:32
+exp24110010:, instance:33
+exp24110010:, instance:34
+exp24110010:, instance:35
+exp24110010:, instance:37
+exp24110010:, instance:38
+
+Process finished with exit code 0
+
+
+
+
+
+

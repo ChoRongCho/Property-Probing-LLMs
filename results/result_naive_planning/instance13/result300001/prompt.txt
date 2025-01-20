@@ -1,0 +1,84 @@
+--------------  --------------------------
+Project Time    2024-12-30 17:36:50.381383
+Task            bin_packing
+Exp_Name        instance13
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description 
+   - The scene contains five objects: a red box, a brown cup, a green cylinder, a blue sheet, and a yellow sheet.
+   - Identify the physical property of each object.
+     1. Red box: rigid
+     2. Brown cup: compressible
+     3. Green cylinder: plastic (irreversibly deformable)
+     4. Blue sheet: foldable
+     5. Yellow sheet: foldable
+
+2. Grounded Plan
+
+   - **Pick and Place the Brown Cup**
+     1. pick the brown cup
+     2. place the brown cup in the box
+     3. push the brown cup
+
+   - **Pick and Place the Green Cylinder**
+     4. pick the green cylinder
+     5. place the green cylinder in the box
+
+   - **Pick, Fold, and Place the Blue Sheet**
+     6. pick the blue sheet
+     7. fold the blue sheet
+     8. place the blue sheet in the box
+
+   - **Pick, Fold, and Place the Yellow Sheet**
+     9. pick the yellow sheet
+     10. fold the yellow sheet
+     11. place the yellow sheet in the box
+
+   - **Pick and Place the Red Box**
+     12. pick the red box
+     13. place the red box in the box
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,11 @@
+pick white_3D_cylinder
+Cannot place white_3D_cylinder
+Cannot push white_3D_cylinder
+Cannot pick beige_1D_line
+Cannot place beige_1D_line
+Cannot pick gray_1D_line
+Cannot place gray_1D_line
+All task planning is done
+
+
+

@@ -1,0 +1,14 @@
+pick yellow_3D_cuboid
+Cannot place yellow_3D_cuboid, it is already in the bin.
+Cannot push yellow_3D_cuboid
+Cannot pick white_3D_cylinder
+Cannot place white_3D_cylinder, the robot is not holding it.
+Cannot push white_3D_cylinder
+Cannot pick brown_3D_cylinder
+Cannot place brown_3D_cylinder, the robot is not holding it.
+Cannot push brown_3D_cylinder
+Cannot pick beige_1D_line
+Cannot place beige_1D_line, the robot is not holding it.
+Cannot pick green_3D_cylinder
+Cannot place green_3D_cylinder, the robot is not holding it.
+All task planning is done

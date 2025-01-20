@@ -1,0 +1,14 @@
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+pick gray_1D_line
+place gray_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+All task planning is done
+
+
+

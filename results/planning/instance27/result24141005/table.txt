@@ -1,0 +1,18 @@
+The Init State
+| Index | Name              | Color  | Shape      | Object Type | In Bin | Is Compressible | Is Rigid | Is Fragile |
+|-------|-------------------|--------|------------|-------------|--------|-----------------|----------|------------|
+| 0     | yellow_3D_cuboid  | yellow | 3D_cuboid  | obj         | False  | True            | False    | False      |
+| 1     | white_3D_cylinder | white  | 3D_cylinder| obj         | False  | True            | False    | False      |
+| 2     | beige_1D_line     | beige  | 1D_line    | obj         | False  | False           | True     | False      |
+| 3     | brown_3D_cylinder | brown  | 3D_cylinder| obj         | False  | True            | False    | False      |
+| 4     | green_3D_cylinder | green  | 3D_cylinder| obj         | False  | False           | True     | False      |
+
+
+The Goal State
+| Index | Name              | Packed |
+|-------|-------------------|--------|
+|   0   | yellow_3D_cuboid  |  True  |
+|   1   | white_3D_cylinder |  True  |
+|   2   | beige_1D_line     |  True  |
+|   3   | brown_3D_cylinder |  True  |
+|   4   | green_3D_cylinder |  True  |

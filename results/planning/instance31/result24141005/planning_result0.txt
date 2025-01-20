@@ -1,0 +1,6 @@
+
+Traceback (most recent call last):
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance31/result24141005/planning.py", line 134, in <module>
+    box = Box(index=0, name="box", in_bin_objects=[])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Box.__init__() missing 1 required positional argument: 'object_type'

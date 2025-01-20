@@ -1,0 +1,20 @@
+{
+  "api_key" : "",
+  "text": {
+    "model": "gpt-4o",
+    "max_token": 1200,
+    "temperature": 0.3,
+    "top_p": 0.2,
+    "frequency_penalty": 0,
+    "presence_penalty": 0
+  },
+
+  "vision": {
+    "model": "gpt-4o",
+    "max_token": 1200,
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "frequency_penalty": 0,
+    "presence_penalty": 0
+  }
+}

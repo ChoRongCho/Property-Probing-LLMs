@@ -1,0 +1,13 @@
+Cannot pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+Cannot pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+Cannot pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done

@@ -1,0 +1,157 @@
+{
+  "bin_packing": {
+    "red_3D_cuboid": {
+      "index": 1,
+      "color": "yellow",
+      "dimension": "3D",
+      "shape": "cuboid",
+      "properties": [
+        "is_plastic"
+      ]
+    },
+    "white_3D_cuboid": {
+      "index": 2,
+      "color": "white",
+      "dimension": "3D",
+      "shape": "cuboid",
+      "properties": [
+        "is_rigid"
+      ]
+    },
+    "brown_3D_cuboid": {
+      "index": 3,
+      "color": "brown",
+      "dimension": "3D",
+      "shape": "cuboid",
+      "properties": [
+        "is_compressible"
+      ]
+    },
+    "yellow_3D_cuboid": {
+      "index": 3,
+      "color": "yellow",
+      "dimension": "3D",
+      "shape": "cuboid",
+      "properties": [
+        "is_compressible"
+      ]
+    },
+    "blue_3D_cylinder": {
+      "index": 4,
+      "color": "blue",
+      "dimension": "3D",
+      "shape": "cylinder",
+      "properties": [
+        "is_rigid"
+      ]
+    },
+    "white_3D_cylinder": {
+      "index": 5,
+      "color": "white",
+      "dimension": "3D",
+      "shape": "cylinder",
+      "properties": [
+        "is_compressible"
+      ]
+    },
+    "blue_2D_rectangle": {
+      "index": 6,
+      "color": "blue",
+      "dimension": "2D",
+      "shape": "rectangle",
+      "properties": [
+        "is_plastic"
+      ]
+    },
+    "yellow_2D_rectangle": {
+      "index": 7,
+      "color": "yellow",
+      "dimension": "2D",
+      "shape": "rectangle",
+      "properties": [
+        "is_foldable"
+      ]
+    },
+    "white_2D_circle": {
+      "index": 8,
+      "color": "white",
+      "dimension": "2D",
+      "shape": "circle",
+      "properties": [
+        "is_foldable"
+      ]
+    },
+    "transparent_2D_circle": {
+      "index": 8,
+      "color": "transparent",
+      "dimension": "2D",
+      "shape": "circle",
+      "properties": [
+        "is_foldable"
+      ]
+    },
+    "beige_1D_line": {
+      "index": 9,
+      "color": "beige",
+      "dimension": "1D",
+      "shape": "line",
+      "properties": [
+        "is_rigid"
+      ]
+    },
+    "white_1D_line": {
+      "index": 9,
+      "color": "white",
+      "dimension": "1D",
+      "shape": "line",
+      "properties": [
+        "is_rigid"
+      ]
+    },
+    "black_1D_line": {
+      "index": 10,
+      "color": "black",
+      "dimension": "1D",
+      "shape": "line",
+      "properties": [
+        "is_bendable"
+      ]
+    },
+    "gray_1D_line": {
+      "index": 11,
+      "color": "gray",
+      "dimension": "1D",
+      "shape": "line",
+      "properties": [
+        "is_plastic"
+      ]
+    },
+    "red_3D_polyhedron": {
+      "index": 12,
+      "color": "red",
+      "dimension": "3D",
+      "shape": "red_3D_polyhedron",
+      "properties": [
+        "is_compressible"
+      ]
+    },
+    "brown_3D_cylinder": {
+      "index": 13,
+      "color": "brown",
+      "dimension": "3D",
+      "shape": "cylinder",
+      "properties": [
+        "is_compressible"
+      ]
+    },
+    "green_3D_cylinder": {
+      "index": 14,
+      "color": "green",
+      "dimension": "3D",
+      "shape": "cylinder",
+      "properties": [
+        "is_rigid"
+      ]
+    }
+  }
+}

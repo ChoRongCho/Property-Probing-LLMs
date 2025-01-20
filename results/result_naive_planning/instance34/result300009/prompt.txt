@@ -1,0 +1,68 @@
+--------------  --------------------------
+Project Time    2024-12-31 00:42:19.015697
+Task            bin_packing
+Exp_Name        instance34
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description
+   - Describe the objects in the scene.
+     - A red dragon plush toy, a black bendable stick, and a small plastic bottle.
+   - Identify the physical property of each object.
+     1. Red dragon plush toy: compressible
+     2. Black stick: bendable
+     3. Small plastic bottle: plastic (irreversibly deformable)
+
+2. Grounded Plan
+   1. Pick the red dragon plush toy.
+   2. Place the red dragon plush toy into the box.
+   3. Push the red dragon plush toy in the box.
+   4. Bend the black stick.
+   5. Pick the bent black stick.
+   6. Place the bent black stick into the box.
+   7. Pick the small plastic bottle.
+   8. Place the small plastic bottle into the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

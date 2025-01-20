@@ -1,0 +1,10 @@
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+push transparent_2D_circle
+
+Traceback (most recent call last):
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance9/result24141005/planning_feed1.py", line 135, in <module>
+    action.bend(object3, box)
+    ^^^^^^^^^^^
+AttributeError: 'Action' object has no attribute 'bend'

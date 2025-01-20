@@ -1,0 +1,20 @@
+The Init State
+| Index | Name                  | Shape         | Color      | In Bin | Is Foldable | Is Rigid | Is Bendable | Is Plastic | Is Compressible | Is Fragile |
+|-------|-----------------------|---------------|------------|--------|-------------|----------|-------------|------------|-----------------|------------|
+| 0     | transparent_2D_circle | 2D_circle     | transparent| False  | True        | False    | False       | False      | False           | False      |
+| 1     | beige_1D_line         | 1D_line       | beige      | False  | False       | True     | False       | False      | False           | False      |
+| 2     | black_1D_line         | 1D_line       | black      | False  | False       | False    | True        | False      | False           | False      |
+| 3     | gray_1D_line          | 1D_line       | gray       | False  | False       | False    | False       | True       | False           | False      |
+| 4     | red_3D_polyhedron     | 3D_polyhedron | red        | False  | False       | False    | False       | False      | True            | False      |
+| 5     | brown_3D_cylinder     | 3D_cylinder   | brown      | False  | False       | False    | False       | False      | True            | False      |
+
+
+The Goal State
+| Index | Name                  | Packed |
+|-------|-----------------------|--------|
+|   0   | transparent_2D_circle |  True  |
+|   1   | beige_1D_line         |  True  |
+|   2   | black_1D_line         |  True  |
+|   3   | gray_1D_line          |  True  |
+|   4   | red_3D_polyhedron     |  True  |
+|   5   | brown_3D_cylinder     |  True  |

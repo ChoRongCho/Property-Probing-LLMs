@@ -1,0 +1,7 @@
+
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance25/result250004/planning.py", line 60
+    if self.robot_now_holding == obj and not obj.in_bin:
+    ^
+IndentationError: expected an indented block after function definition on line 55
+
+

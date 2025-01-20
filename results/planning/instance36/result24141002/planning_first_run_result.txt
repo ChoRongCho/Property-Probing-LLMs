@@ -1,0 +1,15 @@
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+Cannot place yellow_2D_rectangle
+Cannot push
+bend black_1D_line
+pick black_1D_line
+Cannot place black_1D_line
+Cannot pick beige_1D_line
+Cannot place beige_1D_line
+Cannot pick gray_1D_line
+Cannot place gray_1D_line
+All task planning is done
+
+
+

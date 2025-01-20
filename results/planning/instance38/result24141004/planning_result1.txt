@@ -1,0 +1,12 @@
+fold transparent_2D_circle
+pick transparent_2D_circle
+Cannot place transparent_2D_circle, it is not packable.
+bend black_1D_line
+pick black_1D_line
+Cannot place black_1D_line, it is not packable.
+Cannot pick red_3D_polyhedron
+Cannot place red_3D_polyhedron, it is not packable.
+Cannot push red_3D_polyhedron
+Cannot pick green_3D_cylinder
+Cannot place green_3D_cylinder, it is not packable.
+All task planning is done

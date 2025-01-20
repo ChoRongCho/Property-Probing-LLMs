@@ -1,0 +1,19 @@
+{
+  "bin_packing": {
+    "script": {
+      "task_description": "packing objects into the bin",
+      "rule_and_goal": {
+        "rule": "give conditions to the actions",
+        "goal": "the objective of the task"
+      }
+    },
+    "rules": {
+      "1": "Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. ",
+      "2": "Push all compressible objects after placing them in the box. ",
+      "3": "If there is a bendalbe object, bend it before placing it in the box. ",
+      "4": "If there is a foldable object, fold it before placing it in the box. ",
+      "5": "Do not bend, fold, or push a plastic object. "
+    },
+    "goals": "Packing all objects into the box. "
+  }
+}

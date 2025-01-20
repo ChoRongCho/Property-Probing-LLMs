@@ -1,0 +1,38 @@
+{
+    "0": {
+        "name": "yellow_2D_rectangle",
+        "shape": "2D_rectangle",
+        "color": "yellow",
+        "predicates": [
+            "is_foldable"
+        ],
+        "init_pose": "out_box"
+    },
+    "1": {
+        "name": "beige_1D_line",
+        "shape": "1D_line",
+        "color": "beige",
+        "predicates": [
+            "is_rigid"
+        ],
+        "init_pose": "out_box"
+    },
+    "2": {
+        "name": "black_1D_line",
+        "shape": "1D_line",
+        "color": "black",
+        "predicates": [
+            "is_bendable"
+        ],
+        "init_pose": "out_box"
+    },
+    "3": {
+        "name": "gray_1D_line",
+        "shape": "1D_line",
+        "color": "gray",
+        "predicates": [
+            "is_plastic"
+        ],
+        "init_pose": "out_box"
+    }
+}

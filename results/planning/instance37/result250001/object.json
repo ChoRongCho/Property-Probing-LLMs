@@ -1,0 +1,56 @@
+{
+    "0": {
+        "name": "transparent_2D_circle",
+        "shape": "2D_circle",
+        "color": "transparent",
+        "predicates": [
+            "is_foldable"
+        ],
+        "init_pose": "out_box"
+    },
+    "1": {
+        "name": "beige_1D_line",
+        "shape": "1D_line",
+        "color": "beige",
+        "predicates": [
+            "is_rigid"
+        ],
+        "init_pose": "out_box"
+    },
+    "2": {
+        "name": "black_1D_line",
+        "shape": "1D_line",
+        "color": "black",
+        "predicates": [
+            "is_bendable"
+        ],
+        "init_pose": "out_box"
+    },
+    "3": {
+        "name": "gray_1D_line",
+        "shape": "1D_line",
+        "color": "gray",
+        "predicates": [
+            "is_plastic"
+        ],
+        "init_pose": "out_box"
+    },
+    "4": {
+        "name": "red_3D_polyhedron",
+        "shape": "3D_polyhedron",
+        "color": "red",
+        "predicates": [
+            "is_compressible"
+        ],
+        "init_pose": "out_box"
+    },
+    "5": {
+        "name": "brown_3D_cylinder",
+        "shape": "3D_cylinder",
+        "color": "brown",
+        "predicates": [
+            "is_compressible"
+        ],
+        "init_pose": "out_box"
+    }
+}

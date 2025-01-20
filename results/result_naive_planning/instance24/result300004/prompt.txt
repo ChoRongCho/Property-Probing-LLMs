@@ -1,0 +1,86 @@
+--------------  --------------------------
+Project Time    2024-12-30 22:06:44.336017
+Task            bin_packing
+Exp_Name        instance24
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description 
+   - Describe the objects in the scene.
+     - A red plush dragon toy
+     - A yellow sponge
+     - A green cylindrical object
+     - A blue cylindrical object
+     - A blue sheet
+     - A transparent plastic lid
+
+   - Identify the physical property of each object.
+     1. Red plush dragon toy: compressible
+     2. Yellow sponge: compressible
+     3. Green cylindrical object: bendable
+     4. Blue cylindrical object: rigid
+     5. Blue sheet: foldable
+     6. Transparent plastic lid: plastic (irreversibly deformable)
+
+2. Grounded Plan
+
+   1. Pick the red plush dragon toy.
+   2. Place the red plush dragon toy in the box.
+   3. Push the red plush dragon toy.
+   4. Pick the yellow sponge.
+   5. Place the yellow sponge in the box.
+   6. Push the yellow sponge.
+   7. Bend the green cylindrical object.
+   8. Pick the green cylindrical object.
+   9. Place the green cylindrical object in the box.
+   10. Fold the blue sheet.
+   11. Pick the blue sheet.
+   12. Place the blue sheet in the box.
+   13. Pick the blue cylindrical object.
+   14. Place the blue cylindrical object in the box.
+   15. Pick the transparent plastic lid.
+   16. Place the transparent plastic lid in the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

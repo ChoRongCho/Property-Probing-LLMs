@@ -1,0 +1,16 @@
+The Init State
+| Index | Name              | Shape         | Color | In Bin | Is Plastic | Is Rigid | Is Compressible | Is Heavy |
+|-------|-------------------|---------------|-------|--------|------------|----------|-----------------|----------|
+| 0     | red_3D_cuboid     | 3D_cuboid     | red   | False  | True       | False    | False           | False    |
+| 1     | blue_3D_cylinder  | 3D_cylinder   | blue  | False  | False      | True     | False           | False    |
+| 2     | red_3D_polyhedron | 3D_polyhedron | red   | False  | False      | False    | True            | False    |
+| 3     | brown_3D_cylinder | 3D_cylinder   | brown | False  | False      | False    | True            | False    |
+
+
+The Goal State
+| Index | Name             | Packed |
+|-------|------------------|--------|
+|   0   | red_3D_cuboid    |  True  |
+|   1   | blue_3D_cylinder |  True  |
+|   2   | red_3D_polyhedron|  True  |
+|   3   | brown_3D_cylinder|  True  |

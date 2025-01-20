@@ -1,0 +1,20 @@
+The Init State
+| Index | Name              | Color  | Shape        | Object Type | In Bin | Is Rigid | Is Compressible | Is Bendable | Is Plastic | Is Heavy |
+|-------|-------------------|--------|--------------|-------------|--------|----------|-----------------|-------------|------------|----------|
+| 0     | white_3D_cuboid   | white  | 3D_cuboid    | obj         | False  | True     | False           | False       | False      | False    |
+| 1     | yellow_3D_cuboid  | yellow | 3D_cuboid    | obj         | False  | False    | True            | False       | False      | False    |
+| 2     | white_3D_cylinder | white  | 3D_cylinder  | obj         | False  | False    | True            | False       | False      | False    |
+| 3     | blue_2D_rectangle | blue   | 2D_rectangle | obj         | False  | False    | False           | False       | True       | False    |
+| 4     | black_1D_line     | black  | 1D_line      | obj         | False  | False    | False           | True        | False      | False    |
+| 5     | brown_3D_cylinder | brown  | 3D_cylinder  | obj         | False  | False    | True            | False       | False      | False    |
+
+
+The Goal State
+| Index | Name              | Packed |
+|-------|-------------------|--------|
+|   0   | white_3D_cuboid   |  True  |
+|   1   | yellow_3D_cuboid  |  True  |
+|   2   | white_3D_cylinder |  True  |
+|   3   | blue_2D_rectangle |  True  |
+|   4   | black_1D_line     |  True  |
+|   5   | brown_3D_cylinder |  True  |

@@ -1,0 +1,47 @@
+{
+    "0": {
+        "name": "blue_3D_cylinder",
+        "shape": "3D_cylinder",
+        "color": "blue",
+        "predicates": [
+            "is_rigid"
+        ],
+        "init_pose": "out_box"
+    },
+    "1": {
+        "name": "blue_2D_rectangle",
+        "shape": "2D_rectangle",
+        "color": "blue",
+        "predicates": [
+            "is_plastic"
+        ],
+        "init_pose": "out_box"
+    },
+    "2": {
+        "name": "black_1D_line",
+        "shape": "1D_line",
+        "color": "black",
+        "predicates": [
+            "is_bendable"
+        ],
+        "init_pose": "out_box"
+    },
+    "3": {
+        "name": "gray_1D_line",
+        "shape": "1D_line",
+        "color": "gray",
+        "predicates": [
+            "is_plastic"
+        ],
+        "init_pose": "out_box"
+    },
+    "4": {
+        "name": "green_3D_cylinder",
+        "shape": "3D_cylinder",
+        "color": "green",
+        "predicates": [
+            "is_rigid"
+        ],
+        "init_pose": "out_box"
+    }
+}

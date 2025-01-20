@@ -1,0 +1,6898 @@
+/home/changmin/anaconda3/envs/pddlv2/bin/python /home/changmin/PycharmProjects/OPTPlan/main.py --task_name bin_packing --exp_name 1 --exp_number 1 --is_save 1 --api_json setting.json --robot_json robot.json --max_feedback 5
+/home/changmin/anaconda3/envs/pddlv2/lib/python3.11/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025845868/work/aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+final text_encoder_type: bert-base-uncased
+/home/changmin/anaconda3/envs/pddlv2/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+---------------- Instance: 1 ----------------
+Iter num : 24141001
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: False
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cuboid  || In bin: False
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141004
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: False
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: False
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: False
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: False
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 2 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cuboid  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 3 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+---------------- Instance: 4 ----------------
+Iter num : 24141001
+fold yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_2D_rectangle
+fold yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 5 ----------------
+Iter num : 24141001
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+---------------- Instance: 6 ----------------
+Iter num : 24141001
+fold yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick yellow_2D_rectangle
+fold yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+---------------- Instance: 7 ----------------
+Iter num : 24141002
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 8 ----------------
+Iter num : 24141001
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+fold yellow_2D_rectangle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 9 ----------------
+Iter num : 24141002
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: transparent_2D_circle  || In bin: False
+Name: black_1D_line  || In bin: False
+
+
+
+
+
+---------------- Instance: 10 ----------------
+Iter num : 24141002
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141003
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141004
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141005
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141006
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141007
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141008
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141010
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+---------------- Instance: 11 ----------------
+Iter num : 24141001
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 12 ----------------
+Iter num : 24141001
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: False
+Name: transparent_2D_circle  || In bin: False
+Name: beige_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: False
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141004
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick red_3D_cuboid
+place red_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 13 ----------------
+Iter num : 24141001
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+fold yellow_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+fold yellow_2D_rectangle
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_cuboid
+place red_3D_cuboid
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick red_3D_cuboid
+place red_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: red_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: yellow_2D_rectangle  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 14 ----------------
+Iter num : 24141001
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+
+
+
+
+
+---------------- Instance: 15 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 16 ----------------
+Iter num : 24141001
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 17 ----------------
+Iter num : 24141001
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+---------------- Instance: 18 ----------------
+Iter num : 24141002
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: False
+
+
+
+
+
+Iter num : 24141005
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: blue_2D_rectangle  || In bin: False
+Name: gray_1D_line  || In bin: False
+
+
+
+
+
+---------------- Instance: 19 ----------------
+Iter num : 24141001
+fold transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 20 ----------------
+Iter num : 24141001
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+All task planning is done
+Name: white_3D_cuboid  || In bin: False
+Name: white_3D_cylinder  || In bin: False
+Name: beige_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141009
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 21 ----------------
+Iter num : 24141001
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cuboid
+place white_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick white_3D_cuboid
+place white_3D_cuboid
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 22 ----------------
+Iter num : 24141001
+pick white_3D_cuboid
+place white_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick white_3D_cuboid
+place white_3D_cuboid
+pick green_3D_cylinder
+place green_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cuboid  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 23 ----------------
+Iter num : 24141001
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: False
+Name: white_3D_cylinder  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+---------------- Instance: 24 ----------------
+Iter num : 24141001
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_3D_cylinder
+place blue_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: False
+Name: blue_3D_cylinder  || In bin: False
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: False
+Name: red_3D_polyhedron  || In bin: False
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141006
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: False
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 25 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick black_1D_line
+place black_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 26 ----------------
+Iter num : 24141001
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+fold transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: gray_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 27 ----------------
+Iter num : 24141004
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 28 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: False
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: False
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141005
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+bend black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 29 ----------------
+Iter num : 24141001
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold yellow_2D_rectangle
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold yellow_2D_rectangle
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold yellow_2D_rectangle
+fold transparent_2D_circle
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick yellow_3D_cuboid
+place yellow_3D_cuboid
+push yellow_3D_cuboid
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+All task planning is done
+Name: yellow_3D_cuboid  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 30 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+fold transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: white_3D_cylinder  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 31 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: blue_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: blue_3D_cylinder  || In bin: False
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: False
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141009
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_3D_cylinder
+place blue_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: blue_3D_cylinder  || In bin: False
+Name: blue_2D_rectangle  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: False
+Name: green_3D_cylinder  || In bin: False
+
+
+
+
+
+---------------- Instance: 32 ----------------
+Iter num : 24141001
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: blue_2D_rectangle  || In bin: True
+Name: yellow_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 33 ----------------
+Iter num : 24141001
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: False
+Name: beige_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: False
+
+
+
+
+
+Iter num : 24141006
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+---------------- Instance: 34 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+bend black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick white_3D_cylinder
+place white_3D_cylinder
+push white_3D_cylinder
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+All task planning is done
+Name: white_3D_cylinder  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+
+
+
+
+
+---------------- Instance: 35 ----------------
+Iter num : 24141001
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold transparent_2D_circle
+bend black_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick transparent_2D_circle
+place transparent_2D_circle
+pick black_1D_line
+place black_1D_line
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+bend black_1D_line
+fold transparent_2D_circle
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+pick black_1D_line
+place black_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick green_3D_cylinder
+place green_3D_cylinder
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: blue_2D_rectangle  || In bin: True
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+---------------- Instance: 36 ----------------
+Iter num : 24141001
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+Iter num : 24141004
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_2D_rectangle  || In bin: False
+Name: beige_1D_line  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: False
+
+
+
+
+
+Iter num : 24141009
+fold yellow_2D_rectangle
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: yellow_2D_rectangle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+
+
+
+
+
+---------------- Instance: 37 ----------------
+Iter num : 24141001
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141003
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141004
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick beige_1D_line
+place beige_1D_line
+pick gray_1D_line
+place gray_1D_line
+pick brown_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: False
+Name: beige_1D_line  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: False
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick beige_1D_line
+place beige_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141009
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+pick brown_3D_cylinder
+place brown_3D_cylinder
+push brown_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: beige_1D_line  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: gray_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: brown_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+pick beige_1D_line
+place beige_1D_line
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+Name: transparent_2D_circle  || In bin: False
+Name: beige_1D_line  || In bin: False
+Name: black_1D_line  || In bin: False
+Name: gray_1D_line  || In bin: False
+Name: red_3D_polyhedron  || In bin: False
+Name: brown_3D_cylinder  || In bin: False
+
+
+
+
+---------------- Instance: 38 ----------------
+Iter num : 24141001
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141002
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141003
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141005
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141006
+fold transparent_2D_circle
+bend black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick transparent_2D_circle
+place transparent_2D_circle
+pick black_1D_line
+place black_1D_line
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141007
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141008
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Iter num : 24141010
+fold transparent_2D_circle
+pick transparent_2D_circle
+place transparent_2D_circle
+bend black_1D_line
+pick black_1D_line
+place black_1D_line
+pick red_3D_polyhedron
+place red_3D_polyhedron
+push red_3D_polyhedron
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+Name: transparent_2D_circle  || In bin: True
+Name: black_1D_line  || In bin: True
+Name: red_3D_polyhedron  || In bin: True
+Name: green_3D_cylinder  || In bin: True
+
+
+
+
+
+Done
+
+Process finished with exit code 0

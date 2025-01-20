@@ -1,0 +1,5 @@
+
+  File "/home/changmin/PycharmProjects/OPTPlan/result_planning/instance37/result24141005/planning.py", line 67
+    if not obj.is_packable:
+    ^
+IndentationError: expected an indented block after function definition on line 65

@@ -1,0 +1,18 @@
+{
+  "bin_packing": {
+    "for_user": {
+      "task_description": "packing problem",
+      "rule_and_goal": {
+        "rule": "give conditions to the actions",
+        "goal": "the objective of the task"
+      }
+    },
+    "rules": {
+      "1": "Before placing a plastic object, ensure that a compressible object is already in the bin. If no compressible object is available, simply place the plastic object instead.",
+      "2": "Do not push or fold when a plastic object is in the bin.",
+      "3": "If there is a foldable object, fold it before placing it in the box",
+      "4": "Compress compressible objects after placing them in the bin."
+    },
+    "goals": "Pack all the objects."
+  }
+}

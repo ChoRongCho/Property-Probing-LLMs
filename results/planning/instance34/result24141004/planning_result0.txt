@@ -1,0 +1,10 @@
+bend black_1D_line
+pick black_1D_line
+Cannot place black_1D_line
+Cannot pick white_3D_cylinder
+Cannot place white_3D_cylinder
+Cannot push white_3D_cylinder
+Cannot pick red_3D_polyhedron
+Cannot place red_3D_polyhedron
+Cannot push red_3D_polyhedron
+All task planning is done

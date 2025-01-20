@@ -1,0 +1,19 @@
+Cannot fold
+pick blue_2D_rectangle
+place blue_2D_rectangle
+pick transparent_2D_circle
+place transparent_2D_circle
+Cannot bend
+pick beige_1D_line
+place beige_1D_line
+pick black_1D_line
+place black_1D_line
+Cannot pick brown_3D_cylinder
+Cannot place brown_3D_cylinder
+Cannot push
+pick green_3D_cylinder
+place green_3D_cylinder
+All task planning is done
+
+
+

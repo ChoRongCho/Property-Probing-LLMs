@@ -1,0 +1,74 @@
+--------------  --------------------------
+Project Time    2024-12-30 22:31:45.408436
+Task            bin_packing
+Exp_Name        instance27
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description
+   - Describe the objects in the scene.
+     - A brown container, a sponge, a green cylindrical object, a plastic bottle, and a stick.
+   - Identify the physical property of each object.
+     1. Brown container: rigid
+     2. Sponge: compressible
+     3. Green cylindrical object: bendable
+     4. Plastic bottle: plastic (irreversibly deformable)
+     5. Stick: rigid
+
+2. Grounded Plan
+   1. Pick the sponge.
+   2. Place the sponge into the box.
+   3. Push the sponge.
+   4. Pick the green cylindrical object.
+   5. Bend the green cylindrical object.
+   6. Place the green cylindrical object into the box.
+   7. Pick the brown container.
+   8. Place the brown container into the box.
+   9. Pick the stick.
+   10. Place the stick into the box.
+   11. Pick the plastic bottle.
+   12. Place the plastic bottle into the box.
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,71 @@
+--------------  --------------------------
+Project Time    2024-12-31 01:29:43.478677
+Task            bin_packing
+Exp_Name        instance38
+API JSON        setting.json
+Max Predicates  1
+--------------  --------------------------
+--------------------------------------------------
+Q: 
+Goal of the bin_packing: Pack all the objects.
+
+Available actions: 
+pick: Pick an object that not in the box. The action does not include the 'place' action and can be applied to any type of object. 
+place: Place an object into the box. This action can be applied to any type of object. 
+bend: Bend a 1D bendable object. Hand must remain empty before and after the bending action. 
+push: Push a 3D compressible object downward in the bin. Hand must remain empty before and after the pushing. 
+fold: Fold a 2D foldable object. Hand must remain empty before and after the folding. 
+
+Constraints: 
+1: Before placing a plastic object, a compressible object should be in the box before. Non-plastic objects can be placed without any constraints. 
+2: Push all compressible objects after placing them in the box. 
+3: If there is a bendalbe object, bend it before placing it in the box. 
+4: If there is a foldable object, fold it before placing it in the box. 
+5: Do not bend, fold, or push a plastic object. 
+
+
+1. Describe the given images.
+2. Create a plan that adheres to the given constraints and instructions.
+
+---template start---
+1. Description 
+    - Describe the objects in the scene.
+    - Identify the physical property of each object.
+        [rigid, bendalbe, foldable, compressible, plastic(irreversibly deformable)]   
+        1. 
+        2.
+        3.
+
+2. Grounded Plan
+
+ 
+---template end---
+
+
+A: 
+---template start---
+
+1. Description 
+   - The scene contains four objects: a plush dragon, a green cylinder, a black pipe cleaner, and a transparent plastic lid.
+   - Identify the physical property of each object.
+     1. Plush dragon: compressible
+     2. Green cylinder: rigid
+     3. Black pipe cleaner: bendable
+     4. Transparent plastic lid: plastic (irreversibly deformable)
+
+2. Grounded Plan
+
+   - **pick** the plush dragon
+   - **place** the plush dragon into the box
+   - **push** the plush dragon in the box
+   - **pick** the black pipe cleaner
+   - **bend** the black pipe cleaner
+   - **place** the black pipe cleaner into the box
+   - **pick** the green cylinder
+   - **place** the green cylinder into the box
+   - **pick** the transparent plastic lid
+   - **place** the transparent plastic lid into the box
+
+---template end---
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,12 @@
+pick yellow_2D_rectangle
+place yellow_2D_rectangle
+pick beige_1D_line
+place beige_1D_line
+pick black_1D_line
+place black_1D_line
+pick gray_1D_line
+place gray_1D_line
+All task planning is done
+
+
+

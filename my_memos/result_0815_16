@@ -1,0 +1,199 @@
+/home/changmin/anaconda3/envs/pddlv2/bin/python /home/changmin/PycharmProjects/OPTPlan/main_two.py --task_name bin_packing --exp_name 9 --exp_number 24072315 --is_save 1 --api_json setting.json --example_prompt_json prompt_examples_python.json --robot_json robot.json
+--------------------------------------------------
+Start a number 1 experiment
+/home/changmin/anaconda3/envs/pddlv2/lib/python3.11/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025845868/work/aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Can't find black_2D_circle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance1/result24081516' already exists.
+--------------------------------------------------
+Start a number 2 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance2/result24081516' already exists.
+--------------------------------------------------
+Start a number 3 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance3/result24081516' already exists.
+--------------------------------------------------
+Start a number 4 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance4/result24081516' already exists.
+--------------------------------------------------
+Start a number 5 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance5/result24081516' already exists.
+--------------------------------------------------
+Start a number 6 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance6/result24081516' already exists.
+--------------------------------------------------
+Start a number 7 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance7/result24081516' already exists.
+--------------------------------------------------
+Start a number 8 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance8/result24081516' already exists.
+--------------------------------------------------
+Start a number 9 experiment
+final text_encoder_type: bert-base-uncased
+Can't find white_3D_cuboid in database. Random predicates are assigned.
+Can't find yellow_2D_triangle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance9/result24081516' already exists.
+--------------------------------------------------
+Start a number 10 experiment
+final text_encoder_type: bert-base-uncased
+Can't find transparent_3D_cuboid in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance10/result24081516' already exists.
+--------------------------------------------------
+Start a number 11 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance11/result24081516' already exists.
+--------------------------------------------------
+Start a number 12 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance12/result24081516' already exists.
+--------------------------------------------------
+Start a number 13 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance13/result24081516' already exists.
+--------------------------------------------------
+Start a number 14 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance14/result24081516' already exists.
+--------------------------------------------------
+Start a number 15 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Can't find black_2D_loop in database. Random predicates are assigned.
+Can't find green_3D_sphere in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance15/result24081516' already exists.
+--------------------------------------------------
+Start a number 16 experiment
+final text_encoder_type: bert-base-uncased
+Can't find white_3D_cuboid in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance16/result24081516' already exists.
+--------------------------------------------------
+Start a number 17 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Can't find black_2D_loop in database. Random predicates are assigned.
+Can't find white_2D_circle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance17/result24081516' already exists.
+--------------------------------------------------
+Start a number 18 experiment
+final text_encoder_type: bert-base-uncased
+Can't find white_2D_circle in database. Random predicates are assigned.
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance18/result24081516' already exists.
+--------------------------------------------------
+Start a number 19 experiment
+final text_encoder_type: bert-base-uncased
+Can't find green_2D_circle in database. Random predicates are assigned.
+Replace brown_3D_cuboid color brown into yellow
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance19/result24081516' already exists.
+--------------------------------------------------
+Start a number 20 experiment
+final text_encoder_type: bert-base-uncased
+Can't find white_3D_cuboid in database. Random predicates are assigned.
+Replace brown_3D_cuboid color brown into yellow
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance20/result24081516' already exists.
+--------------------------------------------------
+Start a number 21 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance21/result24081516' already exists.
+--------------------------------------------------
+Start a number 22 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance22/result24081516' already exists.
+--------------------------------------------------
+Start a number 23 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance23/result24081516' already exists.
+--------------------------------------------------
+Start a number 24 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance24/result24081516' already exists.
+--------------------------------------------------
+Start a number 25 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance25/result24081516' already exists.
+--------------------------------------------------
+Start a number 26 experiment
+final text_encoder_type: bert-base-uncased
+Can't find red_3D_cuboid in database. Random predicates are assigned.
+Can't find white_2D_circle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance26/result24081516' already exists.
+--------------------------------------------------
+Start a number 27 experiment
+final text_encoder_type: bert-base-uncased
+Can't find white_2D_circle in database. Random predicates are assigned.
+Can't find white_3D_cuboid in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance27/result24081516' already exists.
+--------------------------------------------------
+Start a number 28 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Can't find white_2D_circle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance28/result24081516' already exists.
+--------------------------------------------------
+Start a number 29 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Can't find white_2D_circle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance29/result24081516' already exists.
+--------------------------------------------------
+Start a number 30 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance30/result24081516' already exists.
+--------------------------------------------------
+Start a number 31 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_circle in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance31/result24081516' already exists.
+--------------------------------------------------
+Start a number 32 experiment
+final text_encoder_type: bert-base-uncased
+Can't find black_2D_loop in database. Random predicates are assigned.
+Can't find green_3D_sphere in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance32/result24081516' already exists.
+--------------------------------------------------
+Start a number 33 experiment
+final text_encoder_type: bert-base-uncased
+Can't find green_2D_circle in database. Random predicates are assigned.
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance33/result24081516' already exists.
+--------------------------------------------------
+Start a number 34 experiment
+final text_encoder_type: bert-base-uncased
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance34/result24081516' already exists.
+--------------------------------------------------
+Start a number 35 experiment
+final text_encoder_type: bert-base-uncased
+Replace brown_3D_cuboid color brown into yellow
+Can't find black_2D_loop in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance35/result24081516' already exists.
+--------------------------------------------------
+Start a number 36 experiment
+final text_encoder_type: bert-base-uncased
+Can't find translucent_2D_circle in database. Random predicates are assigned.
+Can't find black_2D_loop in database. Random predicates are assigned.
+Can't find white_3D_cuboid in database. Random predicates are assigned.
+Directory '/home/changmin/PycharmProjects/OPTPlan/result/instance36/result24081516' already exists.
+
+Process finished with exit code 0
+
+
+
+fail 35
+hal: 5
