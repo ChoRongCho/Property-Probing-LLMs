@@ -8,4 +8,5 @@ data/json/setting_creative.json
 /scripts/utils/output.avi
 /scripts/transformer_llms
 /scripts/planner_old.py
+/my_memos
 
